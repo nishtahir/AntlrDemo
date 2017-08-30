@@ -1,2 +1,0 @@
-name,address,phonenumber
-tom,hogwarts,12345
