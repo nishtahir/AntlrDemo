@@ -1,13 +1,14 @@
 # AntlrDemo
 Demo project demonstrating ANTLR4
 
-#Tools
+# Usage
 
-* JavaSE **JDK 7** or higher
-* ANTLR 4 Complete
-* Intellij IDEA
+```
+./gradlew generateGrammarSource build
 
-####License
+```
+
+# License
 Copyright 2014 Nish Tahir
 
 Licensed under the Apache License, Version 2.0 (the "License");
