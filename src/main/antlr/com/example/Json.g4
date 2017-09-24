@@ -1,10 +1,18 @@
-grammar json;
+grammar Json;
 
-jsonObject
-    : '{' json (',' json)* '}'
-    ;
+@header{
+package com.example;
+}
 
 json
+    : jsonObject* EOF
+    ;
+
+jsonObject
+    : '{' (keyValuePair (',' keyValuePair)*)? '}'
+    ;
+
+keyValuePair
     : IDENTIFIER ':' (primitive | jsonObject)
     ;
 

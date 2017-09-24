@@ -1,5 +1,6 @@
-# AntlrDemo
-Demo project demonstrating ANTLR4
+# ANTLR 4 demo
+
+A demo project using ANTLR 4 to parse Json.
 
 # Usage
 
@@ -9,7 +10,7 @@ Demo project demonstrating ANTLR4
 ```
 
 # License
-Copyright 2014 Nish Tahir
+Copyright 2017 Nish Tahir
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
